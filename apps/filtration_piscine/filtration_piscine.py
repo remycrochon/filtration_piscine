@@ -1,4 +1,3 @@
-# Version du 16/11/2022 -> Affichage heure début/fin au format hh:mm
 import hassapi as hass
 import datetime
 from datetime import timedelta
