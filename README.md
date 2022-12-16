@@ -18,26 +18,24 @@ module.
 Mon cahier des charges est le suivant:
 
 Traitement des 4 modes de fonctionnement suivant:
-Été: Temps de calcul fonction de la température de l’eau
-Hiver: temps de filtration basé sur une heure de départ et une durée
-Ma F: Force la pompe en marche
-At F: Force la pompe à l’arrêt
+  Été: Temps de calcul fonction de la température de l’eau
+  Hiver: temps de filtration basé sur une heure de départ et une durée
+  Ma F: Force la pompe en marche
+  At F: Force la pompe à l’arrêt
 En mode Été:
-choix du modèle de calcul du temps de filtration:
-Mode abaque Abacus
-Mode classique: Température divisée par 2
-Répartition du temps de filtration autour de l’heure Pivot: 50% avant et 50% après.
-Possibilité de choisir son heure pivot entre 11:00 et 14:00 (butées modifiables dans l’application)
-Possibilité de minorer ou majorer par un coefficient le temps de filtration (entre 60 et 140%: c’est un choix personnel basé sur mon retour d’expérience)
-Limiter l’heure de fin à 23:59:59.
-Temporisation de prise en compte de la température après demarrage de la pompe
-Forçage à l’arrêt de la pompe quelque soit le mode de fonctionnement
-Affichage de la plage de filtration dans HA
-Enfin, avoir la main mise totale sur le programme, maîtriser les modifications et l’améliorer à ma convenance.
+  choix du modèle de calcul du temps de filtration:
+    Mode abaque Abacus
+    Mode classique: Température divisée par 2
+  Répartition du temps de filtration autour de l’heure Pivot: 50% avant et 50% après.
+  Possibilité de choisir son heure pivot entre 11:00 et 14:00 (butées modifiables dans l’application)
+  Possibilité de minorer ou majorer par un coefficient le temps de filtration (entre 60 et 140%: c’est un choix personnel basé sur mon retour d’expérience)
+  Limiter l’heure de fin à 23:59:59.
+  Temporisation de prise en compte de la température après demarrage de la pompe
+  Forçage à l’arrêt de la pompe quelque soit le mode de fonctionnement
+  Affichage de la plage de filtration dans HA
 L’heure pivot représente selon moi le zénith du soleil, elle sert de de référence horaire dans ma programmation.
-
-Abaque du mode Abacus
-Le temps filtration est calculé suivant la courbe bleue avec un coefficient de 100%, la rouge avec un coefficient de 60% et la verte avec un coefficient de 140%. Cette formule, utilisée par Pool Pump Manager et le pluging Jeedom a été récupérée dans https://github.com/scadinot/pool.
+Abaque du mode Abacus:
+Cette formule, utilisée par Pool Pump Manager et le pluging Jeedom a été récupérée dans https://github.com/scadinot/pool.
 
 Plus de détail dans https://domo.rem81.com/2022/02/02/ha-gestion-piscine-1-filtration-avec-appdaemon/
 
