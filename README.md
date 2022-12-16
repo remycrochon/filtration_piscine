@@ -1,9 +1,4 @@
-<a href="https://www.buymeacoffee.com/uMhxJCzPS" target="_blank"><img
-src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"
-alt="Buy Me A Coffee" style="height: 41px !important;width: 174px
-!important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5)
-!important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5)
-!important;" ></a>
+
 
 ## App configuration
 
@@ -16,12 +11,9 @@ Piscine:
   h_pivot: input_datetime.heure_pivot_pisc
   h_debut_hiver: input_datetime.heure_ma_pump_pisc_hiv
   duree_hiver: input_number.duree_filtration_max_mode_hiver
-# 
   coef: input_number.filtration_coeff_abaque
-# Validation de mode de calcul avec Abaque sinon c'est la méthode classique (T°/2)
   mode_calcul: input_boolean.calcul_mode_abaque
-# Temps circulation de l'eau avant prise en compte mesure température
-# dans le cas où la mesure de température de l'eau se trouve sur le circuit de pompage
+
   tempo_eau: input_number.tempo_circulation_eau
 # Memoire de la temperature de l'eau avant arret
   mem_temp: input_number.mem_temp_piscine
@@ -49,6 +41,10 @@ key | optional | type | default | description
 `h_debut_hiver` | False | string | input_datetime.heure_ma_pump_pisc_hiv | Heure de début de filtration en hiver.
 `duree_hiver` | False | string | input_number.duree_filtration_max_mode_hiver | Durée de la filtration en hiver.
 `coef` | False | string | input_number.filtration_coeff_abaque | Coefficient du temps de filtration entre 60 et 140%
+`mode_calcul` | False | string | input_boolean.calcul_mode_abaque | Validation de mode de calcul avec Abaque sinon c'est la méthode classique (T°/2)
+`tempo_eau` | False | string | input_number.tempo_circulation_eau | # Temps circulation de l'eau avant prise en compte mesure température
+# dans le cas où la mesure de température de l'eau se trouve sur le circuit de pompage.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 `mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 `mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 `mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
