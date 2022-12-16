@@ -11,9 +11,7 @@ alt="Buy Me A Coffee" style="height: 41px !important;width: 174px
 Piscine:
   class: FiltrationPiscine
   module: filtration_piscine
-# Capteurs
   temperature_eau: sensor.temp_piscine
-# Selection du mode fonctionnement de la filtration
   mode_de_fonctionnement: input_select.mode_fonctionnement_piscine
 # Heure pivot autour de laquelle le temps de filtration est réparti (50/50)
   h_pivot: input_datetime.heure_pivot_pisc
@@ -48,6 +46,6 @@ key | optional | type | default | description
 -- | -- | -- | -- | --
 `module` | False | string | | `nightmode`
 `class` | False | string | | `NightMode`
-`temperature_eau:` | True | string || Sensor temperature de l'eau.
-`night_brighness` | True | number from 1-255 || The default brightness of the lights listed above during night mode.
+`temperature_eau:` | False | string | sensor.temp_piscine | Mesure de la temperature de l'eau.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | # Selection du mode fonctionnement de la filtration.
 
