@@ -15,11 +15,11 @@ local `apps` directory, then add the configuration to enable the `filtration_pis
 module.
 
 ## Fonctionnement
-Mon cahier des charges est le suivant:
+Mon cahier des charges est le suivant:  
 
-Traitement des 4 modes de fonctionnement suivant:
-  Été: Temps de calcul fonction de la température de l’eau
-  Hiver: temps de filtration basé sur une heure de départ et une durée
+Traitement des 4 modes de fonctionnement suivant:  
+  Été: Temps de calcul fonction de la température de l’eau  
+  Hiver: temps de filtration basé sur une heure de départ et une durée  
   Ma F: Force la pompe en marche
   At F: Force la pompe à l’arrêt
 En mode Été:
