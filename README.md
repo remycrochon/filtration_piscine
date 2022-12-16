@@ -1,4 +1,18 @@
+# Filtration_piscine
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
+<a href="https://www.buymeacoffee.com/uMhxJCzPS" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
+_Gestion du temps de filtration d'une piscine._
+
+## Installation
+
+This app is best installed using
+[HACS](https://github.com/custom-components/hacs), so that you can easily track
+and download updates.
+
+Alternatively, you can download the `nightmode` directory from inside the `apps` directory here to your
+local `apps` directory, then add the configuration to enable the `nightmode`
+module.
 
 ## App configuration
 
