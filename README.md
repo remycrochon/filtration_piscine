@@ -13,9 +13,8 @@ Piscine:
   module: filtration_piscine
   temperature_eau: sensor.temp_piscine
   mode_de_fonctionnement: input_select.mode_fonctionnement_piscine
-# Heure pivot autour de laquelle le temps de filtration est réparti (50/50)
   h_pivot: input_datetime.heure_pivot_pisc
-# Heure de début de filtration en hiver
+
   h_debut_hiver: input_datetime.heure_ma_pump_pisc_hiv
 # Durée de la filtration en hiver
   duree_hiver: input_number.duree_filtration_max_mode_hiver
@@ -47,5 +46,12 @@ key | optional | type | default | description
 `module` | False | string | | `nightmode`
 `class` | False | string | | `NightMode`
 `temperature_eau:` | False | string | sensor.temp_piscine | Mesure de la temperature de l'eau.
-`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | # Selection du mode fonctionnement de la filtration.
+`mode_de_fonctionnementt` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
+`h_pivot` | False | string | input_datetime.heure_pivot_pisc | Heure pivot autour de laquelle le temps de filtration est réparti (50/50).
+`h_debut_hiver` | False | string | input_datetime.heure_ma_pump_pisc_hiv | Heure de début de filtration en hiver.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
+`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 
