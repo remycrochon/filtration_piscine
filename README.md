@@ -11,7 +11,7 @@ This app is best installed using
 and download updates.
 
 Alternatively, you can download the `nightmode` directory from inside the `apps` directory here to your
-local `apps` directory, then add the configuration to enable the `nightmode`
+local `apps` directory, then add the configuration to enable the `filtration_piscine`
 module.
 
 ## App configuration
