@@ -14,11 +14,9 @@ Piscine:
   temperature_eau: sensor.temp_piscine
   mode_de_fonctionnement: input_select.mode_fonctionnement_piscine
   h_pivot: input_datetime.heure_pivot_pisc
-
   h_debut_hiver: input_datetime.heure_ma_pump_pisc_hiv
-# Durée de la filtration en hiver
   duree_hiver: input_number.duree_filtration_max_mode_hiver
-# Coefficient du temps de filtration entre 60 et 140%
+# 
   coef: input_number.filtration_coeff_abaque
 # Validation de mode de calcul avec Abaque sinon c'est la méthode classique (T°/2)
   mode_calcul: input_boolean.calcul_mode_abaque
@@ -49,8 +47,8 @@ key | optional | type | default | description
 `mode_de_fonctionnementt` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 `h_pivot` | False | string | input_datetime.heure_pivot_pisc | Heure pivot autour de laquelle le temps de filtration est réparti (50/50).
 `h_debut_hiver` | False | string | input_datetime.heure_ma_pump_pisc_hiv | Heure de début de filtration en hiver.
-`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
-`mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
+`duree_hiver` | False | string | input_number.duree_filtration_max_mode_hiver | Durée de la filtration en hiver.
+`coef` | False | string | input_number.filtration_coeff_abaque | Coefficient du temps de filtration entre 60 et 140%
 `mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 `mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
 `mode_de_fonctionnement` | False | string | input_select.mode_fonctionnement_piscine | Selection du mode fonctionnement de la filtration.
