@@ -1,5 +1,6 @@
 {
   "name": "filtration_piscine",
+  "render_readme": true,
   "content_in_root": true,
   "country": ["FR","EU"]
   "homeassistant": "2022.1.1",
