@@ -12,6 +12,6 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - name: HACS Action
-        uses: "hacs/action@main1"
+        uses: "hacs/action@main"
         with:
           category: "appdaemon"
