@@ -4,7 +4,7 @@ from datetime import timedelta
 import time
 
 # Variables globales
-# Saisir ici les memes modes que dans HA 
+# Saisir ici les memes modes que dans HA.
 TAB_MODE = ["Ete", "Hiver", "At F", "Ma F"]
 # Niveau de JOURNALISATION (log): 0=rien ou 1 =info ou 2=debug 
 JOURNAL=2
