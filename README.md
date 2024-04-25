@@ -4,7 +4,7 @@ _Gestion du temps de filtration d'une piscine._
 
 ## Installation
 
-Instructions d'installation dans https://domo.rem81.com/2022/02/02/ha-gestion-piscine-1-filtration-avec-appdaemon/
+Instructions d'installation dans [(https://domo.rem81.com/index.php/2022/02/02/ha-gestion-piscine-1-filtration-avec-appdaemon-2/)]
 
 ## Fonctionnement
 Les fonctionnalités sont les suivantes:  
