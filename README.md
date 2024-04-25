@@ -1,18 +1,10 @@
 # Filtration_piscine
-[![hacs_badge](https://img.shields.io/badge/HACS-Default-orange.svg?style=for-the-badge)](https://github.com/custom-components/hacs)
-
 
 _Gestion du temps de filtration d'une piscine._
 
 ## Installation
 
-This app is best installed using
-[HACS](https://github.com/custom-components/hacs), so that you can easily track
-and download updates.
-
-Alternatively, you can download the `nightmode` directory from inside the `apps` directory here to your
-local `apps` directory, then add the configuration to enable the `filtration_piscine`
-module.
+Instructions d'installation dans https://domo.rem81.com/2022/02/02/ha-gestion-piscine-1-filtration-avec-appdaemon/
 
 ## Fonctionnement
 Les fonctionnalités sont les suivantes:  
